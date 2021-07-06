@@ -204,9 +204,6 @@
     width: 250px;
 }
 @media screen and (min-width: 768px) {
-    .home-screen__title, .home-screen__text, .home-screen__button {
-        opacity: 0;
-    }
     .home-screen__text {
         animation-delay: 0.1s;
     }
@@ -710,7 +707,6 @@
 .translateX-animation{
     animation-name: translateX-animation;
     animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
 @media screen and (min-width: 768px) {
     @keyframes translateX-animation {
@@ -728,7 +724,6 @@
 .translateY-animation{
     animation-name: translateY-animation;
     animation-duration: 1s;
-    animation-fill-mode: forwards;
 }
 @media screen and (min-width: 768px) {
     @keyframes translateY-animation {
