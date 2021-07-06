@@ -36,6 +36,9 @@ body{
 	font-family: 'Montserrat', sans-serif;
 	overflow-x: hidden;
 }
+.body-overflow{
+	overflow: hidden;
+}
 
 /* Стили контейнеров */
 .container, .large_container{width: 100%; max-width: 1200px; margin: 0 auto; padding: 0 15px;}

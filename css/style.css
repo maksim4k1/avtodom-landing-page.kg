@@ -294,11 +294,19 @@
     padding: 50px 15px;
     margin: 0 0 50px;
     display: flex;
-    justify-content: center;
+    flex-flow: column;
+    align-items: center;
+    gap: 30px;
     background-image: url(../img/png/contacts/background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+}
+.brands__title{
+    color: var(--main-white);
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
 }
 .brands__list {
     max-width: 860px;
@@ -340,7 +348,7 @@
 .brands__image{
     height: 80px;
 }
-.brands__title {
+.brands__subtitle {
     font-size: 24px;
     font-weight: 700;
     text-transform: uppercase;
@@ -660,6 +668,9 @@
     .home-screen__advantage-subtitle {
         font-size: 18px;
     }
+    .brands__title{
+        font-size: 28px;
+    }
     .brands__list{
         gap: 30px;
     }
@@ -670,7 +681,7 @@
     .brands__image{
         height: 70px;
     }
-    .brands__title{
+    .brands__subtitle{
         font-size: 20px;
     }
     .brands__whatsapp{

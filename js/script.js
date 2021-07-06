@@ -15,6 +15,7 @@ burgerMenu.addEventListener("click", toggleBurgerMenu)
 
 function toggleBurgerMenu(){
     burgerMenu.classList.toggle("open-burger-menu");
+    document.body.classList.toggle("body-overflow");
 }
 
 // Animation
@@ -23,6 +24,7 @@ window.addEventListener("load", animateDocument);
 
 let isFinishBrandsAnimation = false;
 let isFinishContactsAnimation = false;
+
 function animateDocument(){
     let brands = document.querySelector(".brands");
     let brandItems = document.querySelectorAll(".brands__item");
