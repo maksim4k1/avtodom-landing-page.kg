@@ -19,6 +19,12 @@
         transform: translateX(5px);
     }
 }
+.button-icon{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    object-position: center;
+}
 
 /* HEADER */
 .header {
