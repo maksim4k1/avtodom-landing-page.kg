@@ -177,7 +177,7 @@
 .home-screen {
     padding: 100px 0 0;
     box-sizing: initial;
-    background-image: url(../img/png/home/background-image.png);
+    background-image: url(../img/webp/home/background-image.webp);
     background-repeat: no-repeat;
     background-position: calc(50% + 500px) bottom;
 }
@@ -298,7 +298,7 @@
     flex-flow: column;
     align-items: center;
     gap: 30px;
-    background-image: url(../img/png/parts/background-image.jpg);
+    background-image: url(../img/webp/parts/background-image.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -398,7 +398,7 @@
     position: absolute;
     bottom: 40px;
     left: 0;
-    background-image: url(../img/png/contacts/background-image.png);
+    background-image: url(../img/webp/contacts/background-image.webp);
     background-repeat: no-repeat;
     background-size: contain;
     z-index: -1;
